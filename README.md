@@ -13,7 +13,7 @@ A Python script to fetch and analyse historic pricing data from Octopus Energy's
 
 ## 📋 Requirements
 
-- Python 3.7+
+- Python 3.8+
 - Internet connection to access Octopus Energy API
 
 ## 🛠️ Installation
@@ -149,14 +149,6 @@ Pricing statistics (last 7 days):
 
 Data saved to: output/octopus_agile_prices_london.csv
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📝 License
 

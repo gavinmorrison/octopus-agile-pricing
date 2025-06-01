@@ -15,7 +15,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="octopus-agile-pricing",
-    version="1.0.0",
+    version="1.0.1",
     author="Gavin Morrison",
     description="A Python script to fetch and analyze Octopus Energy Agile pricing data",
     long_description=long_description,
@@ -28,7 +28,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
@@ -37,7 +36,7 @@ setup(
         "Topic :: Utilities",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.8",
     install_requires=requirements,
     keywords="octopus energy agile pricing electricity tariff uk",
     project_urls={

@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-01-01
+
+### Changed
+- Updated minimum Python version requirement from 3.7 to 3.8 for GitHub Actions compatibility
+- Updated CI/CD pipeline to use Ubuntu 22.04 for broader Python version support
+
+### Technical
+- Removed Python 3.7 from CI test matrix (not available on Ubuntu 24.04)
+- Updated package classifiers and requirements
+
 ## [1.0.0] - 2025-01-01
 
 ### Added
