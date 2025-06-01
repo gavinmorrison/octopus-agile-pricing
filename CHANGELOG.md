@@ -10,10 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated minimum Python version requirement from 3.7 to 3.8 for GitHub Actions compatibility
 - Updated CI/CD pipeline to use Ubuntu 22.04 for broader Python version support
+- Relaxed pandas version requirement from >=2.2.0 to >=2.0.0 for Python 3.8 compatibility
+- Updated requests version requirement from >=2.32.0 to >=2.28.0 for better compatibility
 
 ### Technical
 - Removed Python 3.7 from CI test matrix (not available on Ubuntu 24.04)
 - Updated package classifiers and requirements
+- Fixed pandas dependency issue where pandas 2.2.0+ requires Python 3.9+
 
 ## [1.0.0] - 2025-01-01
 
